@@ -1,0 +1,6 @@
+step1:
+echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
+step2:
+sudo apt-get update
+step3:
+sudo apt-get install libssl1.1
